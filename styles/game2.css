@@ -1,0 +1,81 @@
+.spin {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+
+  width: 170px;
+  height: 60px;
+}
+
+.slot_cont_cont {
+  width: 324px;
+  height: 238px;
+  background: #1E1E1E;
+
+  margin: 20px auto auto;
+}
+
+.slot_cont {
+  width: 90%;
+  height: 90%;
+
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.slot_col {
+  position: relative;
+
+  width: 33%;
+  height: 33%;
+}
+
+.inner_slot_col {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  transition: top 4s ease;
+}
+
+.slot {
+  width: 100%;
+  height: 100%;
+}
+
+.slot img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.balance_cont {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.back {
+  position: absolute;
+  left: 18px;
+  top: 17px;
+}
+
+.win,
+.bet {
+  position: absolute;
+  bottom: 10px;
+
+  width: 181px;
+  height: 44px;
+}
+
+.bet {
+  left: 210px;
+}
+
+.win {
+  left: 410px;
+}

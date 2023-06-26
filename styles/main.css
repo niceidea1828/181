@@ -1,0 +1,31 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.bg_pic {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg_pic_1 {
+  top: 0;
+}
+
+.bg_pic_2 {
+  bottom: 0;
+}
+
+.btn {
+  margin: 20px auto auto;
+}
+
+.link-1 {
+  margin-top: 100px;
+}
+
+.balance_cont {
+  position: absolute;
+  right: 30px;
+  top: 90px;
+}

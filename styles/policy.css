@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 25px;
+}
+
+.ok {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.text {
+  text-align: left;
+  width: 65%;
+}
